@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    background-color: #fafafa;
+    color: #000;
+
+    font-family: Montserrat, serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal
+}
+
+header nav div p {
+    text-shadow: 0 5px 1rem grey;
+}
+
+header nav div hr {
+    box-shadow: 0 4px 0.3rem black;
+}
+
+.b-shadow {
+    box-shadow: 0 24px 16px -14px rgba(255, 123, 41, 0.31);
+}
+
+.b-shadow-black {
+    box-shadow: 0 24px 16px -14px black;
+}
+
+.dropdown {
+    box-shadow: 0 0 29px 0 rgba(0, 0, 0, 0.10);
+}
+
+.gradient {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.71) 0%, rgba(255, 255, 255, 0.00) 100%), linear-gradient(180deg, rgba(255, 255, 255, 0.20) 0%, rgba(205, 200, 200, 0.00) 100%);
+}
